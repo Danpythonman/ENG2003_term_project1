@@ -1,0 +1,10 @@
+*.pdf
+images/*
+term_project_1_outline.txt
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
