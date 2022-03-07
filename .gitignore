@@ -8,3 +8,5 @@ term_project_1_outline.txt
 *.log
 *.out
 *.synctex.gz
+
+.vscode/*

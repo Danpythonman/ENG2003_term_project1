@@ -1,5 +1,13 @@
 \documentclass[12pt]{article}
 
+% Solution to underfull hbox warning
+% Found at: https://tex.stackexchange.com/questions/10924/underfull-hbox-in-bibliography
+\usepackage{etoolbox}
+% Variant A
+\apptocmd{\sloppy}{\hbadness 10000\relax}{}{}
+% Variant B
+% \apptocmd{\thebibliography}{\raggedright}{}{}
+
 \usepackage{geometry}
 \geometry{margin=1in}
 
@@ -38,7 +46,7 @@
 
     \include{sections/introductionAndBackground/introductionAndBackground}
 
-    \section{Machine Learning for Cybersecurity}
+    \include{sections/mainTopics/mainTopics}
 
     \section{Discussion}
 
