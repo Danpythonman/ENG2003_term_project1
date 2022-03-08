@@ -1,5 +1,5 @@
 *.pdf
-images/*
+!term_project_1.pdf
 term_project_1_outline.txt
 
 *.aux
