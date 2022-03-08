@@ -3,5 +3,7 @@
 \contentsline {section}{\numberline {3}Evidence of Machine Learning's Effectiveness}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Windows Defender Antivirus}{4}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Drawbacks of Machine Learning for Cybersecurity}{4}{section.4}%
-\contentsline {section}{\numberline {5}Discussion}{4}{section.5}%
-\contentsline {section}{\numberline {6}Conclusion}{5}{section.6}%
+\contentsline {subsection}{\numberline {4.1}Availability of Datasets}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Lack of Research and Adoption}{5}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Discussion}{5}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion}{6}{section.6}%
