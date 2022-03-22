@@ -5,11 +5,10 @@
 \contentsline {section}{\numberline {3}Evidence of Machine Learning's Effectiveness}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Phishing Detection Experiments with Machine Learning}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}MalDozer---Automatic Malware Detection for Android}{3}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Windows Defender Antivirus}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Windows Defender Antivirus}{4}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Drawbacks of Machine Learning for Cybersecurity}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Low Availability of Adequate Datasets}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Lack of Research and Adoption}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.1}Low Availability of Adequate Datasets}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Lack of Research and Adoption}{5}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Discussion}{5}{section.5}%
 \contentsline {section}{\numberline {6}Conclusion}{6}{section.6}%
-\contentsline {section}{Appendix A: Feedback Summary}{9}{section*.5}%
-\contentsline {subsection}{Peer 1}{9}{section*.6}%
+\contentsline {section}{Appendix A: Feedback Summary}{9}{section*.6}%

@@ -57,23 +57,26 @@ Furthermore, these systems often do not update quick enough to catch new phishin
 
 Machine learning is a suitable technology for this problem of classifying websites and emails as phishing attempts.
 Currently, many experiments and studies are exploring this area.
-One study used a machine learning algorithm to generate rules for spotting phishing attempts.
+One such study used a machine learning algorithm to generate rules for spotting phishing attempts.
 These rules were found to correctly identify 85.4\% of emails and 83\% websites as phishing attempts \cite{anti_phishing_techniques}.
 Another experiment used a neural-network model to categorize emails as phishing attempts at high speed.
 The results showed that the error rate of this algorithm was below 2\% \cite{anti_phishing_techniques}.
 
 Machine learning offers clear improvements to classifying websites and emails as phishing attempts.
-This will operate faster than current systems, leaving less opportunities for attackers, and will prevent legitimate websites from being classified al malicious.
+This will operate faster than current systems, leaving less opportunities for attackers, and will prevent legitimate websites from being classified as malicious.
 
 \subsection{MalDozer---Automatic Malware Detection for Android}
-Android, an open-source mobile device operating system, is particularly vulnerable to malware, in part due to its openness \cite{sustainablecities2021}.
+Android, is an open-source mobile device operating system released by Google.
+Partially due to its openness, Android is particularly vulnerable to malware \cite{sustainablecities2021}.
+In recent years, damage from malware on Android has been dramatically increasing.
+
 In response, multiple machine learning technologies are being developed to protect Android devices from malware \cite{sustainablecities2021}.
 One such technology is called MalDozer.
-Several experiments were conducted by presenting MalDozer with datasets containing varying amounts of malware \cite{sustainablecities2021}.
+Several experiments were conducted by presenting MalDozer with datasets containing varying amounts of malware.
 The experimenters found that its accuracy rate was 96\%-99\% with a false positive rate of 0.06\%-2\% \cite{sustainablecities2021}.
 
-These experiments show the exciting progress in machine learning models.
-They demonstrate their usefulness in accurately identifying malware without human intervention.
+These experiments show exciting progress in machine learning models as a malware detection system.
+As the technology is refined, the accuracy rates will improve further, reducing the amount of malware on Android devices.
 
 \subsection{Windows Defender Antivirus}
 The Windows Defender Antivirus is not only being tested, but is actually being put in use, providing real examples of the capabilities of machine learning.
@@ -83,8 +86,15 @@ These Windows systems featured the Windows Defender Antivirus, an antivirus soft
 The Windows Defender Antivirus features lightweight machine learning models built into the client, which responded immediately to the attack \cite{microsoft2018}.
 These models detected a high probability of maliciousness in the requests they were receiving, so they sent data to the Windows Defender Antivirus cloud protection service, which runs more complex machine learning models \cite{microsoft2018}.
 Through this, the cloud protection service correctly identified the requests as a cyberattack and responded back to the clients, instructing them to block the attack \cite{microsoft2018}.
+Figure 3 shows a schematic made by Microsoft, providing an overview of this process, illustrating the progression from the client-side machine learning models to the complex cloud protection service.
 
-This demonstrates that machine learning is effective not only in tests, but also in real cyberattacks.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{windows_defender_antivirus_diagram.png}
+    \caption[Windows Defender Antivirus Workflow]{Overview of the Cyberattack Detection Process use by Windows Defender Antivirus. \cite{microsoft2018}}
+\end{figure}
+
+Demonstrated by this event, machine learning is effective not only in tests, but also in real cyberattacks.
 The use of machine learning algorithms were able to protect thousands of users from a cyberattack with no human intervention.
 
 \section{Drawbacks of Machine Learning for Cybersecurity}
