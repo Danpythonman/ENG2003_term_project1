@@ -11,6 +11,25 @@ Machine learning offers a solution to this problem.
 
 Machine learning models are able to ``learn'' certain data patterns to predict behavior \cite{sarker_kayes_badsha_2020}.
 In this case, their goal is to predict whether some online activity is malicious or legitimate.
+For maximum effectiveness, this requires a change in the way these systems are developed.
+The development process must shift from a reactive approach to a proactive approach \cite{comprehensive_survey_2020}.
+This is shown in Figure 1, where the system developer shifts from learning based on being attacked to learning based on models and simulations.
+This way, the machine learning technology will be more than just learning from cyberattacks, but also predicting new cyberattacks.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{system_development_reactive_approach.jpg}
+        \caption{Reactive Approach to Cybersecurity System Development}
+    \end{subfigure}
+    \hspace{0.05\textwidth}
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{system_developement_proactive_approach.jpg}
+        \caption{Proactive Approach to Cybersecurity System Development}
+    \end{subfigure}
+    \caption[Reactive versus Proactive Cybersecurity Development]{Reactive versus Proactive Cybersecurity Systems Development. \cite{comprehensive_survey_2020}}
+\end{figure}
+
 To accomplish this, the model must be trained with training data and tested to ensure it is effective.
 This first involves data-centered tasks, like gathering and cleaning data \cite{sarker_kayes_badsha_2020}.
 This data can then be used to train the model, which may take seconds to days, depending on the algorithm chosen \cite{xin2018}.
@@ -29,6 +48,22 @@ The goal of this process is that, after training and testing a machine learning 
 \section{Evidence of Machine Learning's Effectiveness}
 Machine learning algorithms are already being developed, tested, and employed to detect cyberattacks, and the progress being made is promising---machine learning is already proving to be an effective cybersecurity technique.
 This is illustrated by the following case studies.
+
+\subsection{Phishing Detection Experiments with Machine Learning}
+A common type of cyberattack is phishing, which is an attempt to steal users' sensitive information by presenting them with a fake email or login page that appears legitimate \cite{anti_phishing_techniques}.
+Users, thinking that the website is real, can be tricked into entering their information, giving it to attackers.
+Systems exist to detect these attacks, but they often incorrectly classify legitimate websites and emails as malicious---as much as 75\% of domains classified as suspicious are actually genuine \cite{anti_phishing_techniques}.
+Furthermore, these systems often do not update quick enough to catch new phishing attempts \cite{anti_phishing_techniques}.
+
+Machine learning is a suitable technology for this problem of classifying websites and emails as phishing attempts.
+Currently, many experiments and studies are exploring this area.
+One study used a machine learning algorithm to generate rules for spotting phishing attempts.
+These rules were found to correctly identify 85.4\% of emails and 83\% websites as phishing attempts \cite{anti_phishing_techniques}.
+Another experiment used a neural-network model to categorize emails as phishing attempts at high speed.
+The results showed that the error rate of this algorithm was below 2\% \cite{anti_phishing_techniques}.
+
+Machine learning offers clear improvements to classifying websites and emails as phishing attempts.
+This will operate faster than current systems, leaving less opportunities for attackers, and will prevent legitimate websites from being classified al malicious.
 
 \subsection{MalDozer---Automatic Malware Detection for Android}
 Android, an open-source mobile device operating system, is particularly vulnerable to malware, in part due to its openness \cite{sustainablecities2021}.
